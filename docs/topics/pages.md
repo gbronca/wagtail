@@ -346,7 +346,7 @@ The model inlining feature is provided by [django-modelcluster](https://github.c
 ```
 
 `ParentalKey` is a subclass of Django's `ForeignKey`, and takes the same arguments.
-```
+
 
 For example, the following inline model can be used to add related links (a list of name, url pairs) to the `BlogPage` model:
 
